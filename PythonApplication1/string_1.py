@@ -1,5 +1,6 @@
 
 first_name ='laks'
 last_na='pat'
-out='Hello , {} {}'.format(first_name,last_na)
+out='Hello , {1} {0}'.format(first_name,last_na)
+
 print(out)
